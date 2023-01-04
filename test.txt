@@ -1,0 +1,135 @@
+printf("############################## pb ##############################\n");
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&b, &a);
+    s = a;
+    printf(s ? "NO" : "NIL");
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+
+    printf("\n\n");
+
+    /* **************************************** pa **************************************** */
+    /* **************************************** pa **************************************** */
+    /* **************************************** pa **************************************** */
+    /* **************************************** pa **************************************** */
+    /* **************************************** pa **************************************** */
+
+    printf("############################## pa ##############################\n");
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pa(&a, &b);
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&a, &b);
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&a, &b);
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&a, &b);
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&a, &b);
+    s = b;
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+    printf("\n");
+
+    pb(&a, &b);
+    s = b;
+    printf(s ? "NO" : "NIL");
+    while (s)
+    {
+        printf("|%d|\t", s->n);
+        s = s->next;
+    }
+
+    printf("\n\n");
